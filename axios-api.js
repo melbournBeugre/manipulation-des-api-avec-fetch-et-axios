@@ -9,33 +9,33 @@ axios
   .catch((err) => console.error(err));
 
 //  GET ONE
-// axios
-//   .get(`${PLACEHOLDER_URL_API}${userID}`)
-//   .then((res) => console.info(res.data))
-//   .catch((err) => console.error(err));
+axios
+  .get(`${PLACEHOLDER_URL_API}${userID}`)
+  .then((res) => console.info(res.data))
+  .catch((err) => console.error(err));
 
 //PUT
-// axios
-//   .put(`${PLACEHOLDER_URL_API}${userID}`, {
-//     name: "Clementina DuBuqueTEST",
-//     username: "Moriah.StantonTEST",
-//     email: "Rey.Padberg@karina.biz",
-//   })
-//   .then((res) => console.info(res.data))
-//   .catch((err) => console.error(err));
+axios
+  .put(`${PLACEHOLDER_URL_API}${userID}`, {
+    name: "Clementina DuBuqueTEST",
+    username: "Moriah.StantonTEST",
+    email: "Rey.Padberg@karina.biz",
+  })
+  .then((res) => console.info(res.data))
+  .catch((err) => console.error(err));
 
 //POST
-// axios
-//   .post(`${PLACEHOLDER_URL_API}`, {
-//     name: "Clementina DuBuqueTEST",
-//     username: "Moriah.StantonTEST",
-//     email: "Rey.Padberg@karina.biz",
-//   })
-//   .then((res) => console.info(res.data))
-//   .catch((err) => console.error(err));
+axios
+  .post(`${PLACEHOLDER_URL_API}`, {
+    name: "Clementina DuBuqueTEST",
+    username: "Moriah.StantonTEST",
+    email: "Rey.Padberg@karina.biz",
+  })
+  .then((res) => console.info(res.data))
+  .catch((err) => console.error(err));
 
 //DELETE
-// axios
-//   .delete(`${PLACEHOLDER_URL_API}${userID}`)
-//   .then((res) => console.info("Deleted", res.data))
-//   .catch((err) => console.error("Erreur :", err));
+axios
+  .delete(`${PLACEHOLDER_URL_API}${userID}`)
+  .then((res) => console.info("Deleted", res.data))
+  .catch((err) => console.error("Erreur :", err));
